@@ -1,0 +1,459 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Created by: Ryan Grove
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{multicol}
+\usepackage{setspace}
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Ryan} % Your first name
+\familyname{Grove} % Your last name
+
+\title{Curriculum Vitae}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+\vspace{-2cm}
+\section{CONTACT INFORMATION}
+\cvitem{\textbf{Address:}}{Department of Mathematical Sciences,
+          M-306 Martin Hall,
+          Clemson University,
+          Clemson, SC 29634 }
+\cvitem{\textbf{Email:}}{rrgrove6@gmail.com}
+\cvitem{\textbf{Web page:}}{\url{http://people.clemson.edu/~rgrove/}} 
+\cvitem{\textbf{Telephone:}}{\texttt{(609)-635-5377}}
+\cvitem{\textbf{Citizenship:}}{United States of America}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{EDUCATION}
+
+\cventry{2013--2017}{Ph.D. in Mathematical Sciences}{Clemson University}{Clemson, SC}{}{\textit{QPA: 3.75}, Dissertation: N/A} 
+\cventry{2012--2013}{M.S. in Applied Mathematics}{Indiana University of Pennsylvania}{Indiana, PA}{}{\textit{QPA: 3.83}, Thesis: Immersed Boundary modeling of journal bearings in a viscoelastic fluid} 
+\cventry{2008--2012}{B.S. in Physics}{Indiana University of Pennsylvania}{Indiana, PA}{}{\textit{QPA: 3.95}, Minor: Computer Science} 
+\cventry{2008--2012}{B.S. in Applied Mathematics}{Indiana University of Pennsylvania}{Indiana, PA}{}{\textit{QPA: 3.95} }
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{RESEARCH INTERESTS }
+\vspace{-.4cm}
+\begin{multicols}{2}
+\cvitem{}{Geometric Multigrid}
+\cvitem{}{Finite Element Method}
+\cvitem{}{deal.II}
+\cvitem{}{Parallelization}
+\cvitem{}{Advection-Diffusionn equations}
+\cvitem{}{Navier-Stokes equations}
+\cvitem{}{Mantle Convection Simulation}
+\cvitem{}{Parallel Linear Algebra}
+\end{multicols}
+
+
+%----------------------------------------------------------------------------------------
+%	PROGRAMMING LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{PROGRAMMING LANGUAGES}
+\vspace{-.4cm}
+\begin{multicols}{2}
+\cvitem{}{C++ (with MPI and OpenMP)}
+\cvitem{}{C (with MPI)}
+\cvitem{}{Python}
+\cvitem{}{Fortran}
+\cvitem{}{Matlab}
+\cvitem{}{R}
+\cvitem{}{Java}
+\cvitem{}{HTML}
+\cvitem{}{SQL}
+\cvitem{}{Visual Basic}
+\cvitem{}{Lingo/Lindo}
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	SOFTWARE PACKAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{SOFTWARE PACKAGES (* implies contributor of)}
+\cvitem{}{deal.II* (open source finite element library)}
+\cvitem{}{ASPECT* (open source mantle convection program using deal.II)}
+\cvitem{}{GRIPS* (evolutionary multi-objective nonlinear solver)}
+\cvitem{}{ViCE* (visual contour editor)}
+\cvitem{}{UNCOLA* (analytical collision avoidance software package)}
+\cvitem{}{AMPL, CPLEX, and Girobi (nonlinear and linear optimization)}
+\cvitem{}{LaTeX \& Beamer}
+\cvitem{}{Sage}
+
+%----------------------------------------------------------------------------------------
+%	PLATFORMS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{PLATFORMS}
+\vspace{-.4cm}
+\begin{multicols}{2}
+\cvitem{}{Linux}
+\cvitem{}{Ubuntu}
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTATIONAL MATHEMATICS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{COMPUTATIONAL MATHEMATICS}
+\vspace{-.4cm}
+\begin{multicols}{2}
+\cvitem{}{Finite element method}
+\cvitem{}{Stabilization schemes}
+\cvitem{}{Viscoelastic fluid flow}
+\cvitem{}{Navier Stokes equations}
+\cvitem{}{Stochastic models and processes}
+\cvitem{}{Linear, nonlinear, \& network optimization}
+\cvitem{}{Immersed boundary method}
+\cvitem{}{Modeling and simulation}
+\cvitem{}{Finite difference method}
+\cvitem{}{Numerical linear algebra}
+\cvitem{}{Numerical differential equations}
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	PHYSICS AND ENGINEERING SECTION
+%----------------------------------------------------------------------------------------
+
+\section{PHYSICS AND ENGINEERING}
+\vspace{-.33cm}
+\begin{multicols}{2}
+\cvitem{}{Nuclear physics}
+\cvitem{}{Quantum mechanics}
+\cvitem{}{Electricity \& Magnestism}
+\cvitem{}{Mechanics}
+\cvitem{}{Optics}
+\cvitem{}{Electronics}
+\cvitem{}{Satellites \& space systems}
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	VERSION CONTROL SECTION
+%----------------------------------------------------------------------------------------
+
+\section{VERSION CONTROL}
+\vspace{-.4cm}
+\begin{multicols}{2}
+\cvitem{}{GIT}
+\cvitem{}{Subversion}
+\end{multicols}
+
+%----------------------------------------------------------------------------------------
+%	CONTRIBUTED TALKS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{CONTRIBUTED TALKS (* = received travel support)}
+\cvitem{\textbf{Title:}}{Immersed Boundary Modeling of Journal Bearings in a Viscoelastic Fluid}
+\cvitem{\textbf{Event:}}{*The 9th Annual UNCG Regional Mathematics and Statistics Conference}
+\cvitem{\textbf{Location:}}{The University of North Carolina at Greensboro, Greensboro, NC}
+\cvitem{\textbf{Date:}}{November 2, 2013}
+\cvitem{}{}
+\cvitem{\textbf{Title:}}{Immersed Boundary Modeling of Journal Bearings in a Viscoelastic Fluid}
+\cvitem{\textbf{Event:}}{Graduate Student Seminar}
+\cvitem{\textbf{Location:}}{Clemson University, Clemson, SC}
+\cvitem{\textbf{Date:}}{October 30, 2013}
+\cvitem{}{}
+\cvitem{\textbf{Title:}}{Immersed Boundary Modeling of Journal Bearings in a Viscoelastic Fluid}
+\cvitem{\textbf{Event:}}{*Pennsylvania State System of Higher Education Mathematics Association}
+\cvitem{\textbf{Location:}}{Clarion University, Clarion, PA}
+\cvitem{\textbf{Date:}}{April 17-18, 2013}
+\cvitem{}{}
+\cvitem{\textbf{Title:}}{Immersed Boundary Modeling of Journal Bearings in a Viscoelastic Fluid}
+\cvitem{\textbf{Event:}}{*Allegheny Mountain Section of the Mathematical Association of America Spring 2013 meeting}
+\cvitem{\textbf{Location:}}{Indiana University of Pennsylvania, Indiana, PA}
+\cvitem{\textbf{Date:}}{April 5-6, 2013 }
+\cvitem{}{}
+\cvitem{\textbf{Title:}}{Comparison of Nonlinear and Linear Stabilization Schemes for Advection-Diffusion Equations}
+\cvitem{\textbf{Event:}}{Computational Mathematics Seminar}
+\cvitem{\textbf{Location:}}{Clemson University, Clemson, SC}
+\cvitem{\textbf{Date:}}{October 30, 2014}
+\cvitem{}{}
+\cvitem{\textbf{Title:}}{Comparison of Nonlinear and Linear Stabilization Schemes for Advection-Diffusion Equations}
+\cvitem{\textbf{Event:}}{*The 10th Annual UNCG Regional Mathematics and Statistics Conference}
+\cvitem{\textbf{Location:}}{The University of North Carolina at Greensboro, Greensboro, NC}
+\cvitem{\textbf{Date:}}{November 1, 2014}
+\cvitem{}{}
+\cvitem{\textbf{Title:}}{Comparison of Nonlinear and Linear Stabilization Schemes for Advection-Diffusion Equations}
+\cvitem{\textbf{Event:}}{Graduate Student Seminar}
+\cvitem{\textbf{Location:}}{Clemson University, Clemson, SC}
+\cvitem{\textbf{Date:}}{November 5, 2014}
+\cvitem{}{}
+\cvitem{\textbf{Title:}}{Comparison of Nonlinear and Linear Stabilization Schemes for Advection-Diffusion Equations}
+\cvitem{\textbf{Event:}}{Fall Southeastern Sectional Meeting of the American Mathematical Society}
+\cvitem{\textbf{Location:}}{The University of North Carolina at Greensboro, Greensboro, NC}
+\cvitem{\textbf{Date:}}{November 8-9, 2014}
+\cvitem{}{}
+\cvitem{\textbf{Title:}}{How to Get a Summer Internship}
+\cvitem{\textbf{Event:}}{Graduate Student Seminar}
+\cvitem{\textbf{Location:}}{Clemson University, Clemson, SC}
+\cvitem{\textbf{Date:}}{September 23, 2015}
+\cvitem{}{}
+\cvitem{\textbf{Title:}}{An Introduction to Graduate School}
+\cvitem{\textbf{Event:}}{Graduate Student Seminar}
+\cvitem{\textbf{Location:}}{Clemson University, Clemson, SC}
+\cvitem{\textbf{Date:}}{August 26, 2015}
+\cvitem{}{}
+\cvitem{\textbf{Title:}}{Comparison of Nonlinear and Linear Stabilization Schemes for Advection-Diffusion Equations}
+\cvitem{\textbf{Event:}}{*The 11th Annual UNCG Regional Mathematics and Statistics Conference}
+\cvitem{\textbf{Location:}}{The University of North Carolina at Greensboro, Greensboro, NC}
+\cvitem{\textbf{Date:}}{November 7, 2015}
+
+%----------------------------------------------------------------------------------------
+%	POSTER PRESENTATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{POSTER PRESENTATIONS (* = received travel support)}
+\cvitem{\textbf{Title:}}{Comparison of Nonlinear and Linear Stabilization Schemes for Advection-Diffusion Equation}
+\cvitem{\textbf{Event:}}{*2015 SIAM Conference on Computational Science and Engineering}
+\cvitem{\textbf{Location:}}{The Calvin L. Rampton Salt Palance Convention Center, Salt Lake City, UT}
+\cvitem{\textbf{Date:}}{March 14-18, 2015}
+\cvitem{}{}
+\cvitem{\textbf{Title:}}{Comparison of Nonlinear and Linear Stabilization Schemes for Advection-Diffusion Equations}
+\cvitem{\textbf{Event:}}{AGU 2015 Fall Meeting}
+\cvitem{\textbf{Location:}}{Moscone Convention Center, San Francisco, SC}
+\cvitem{\textbf{Date:}}{December 14-18, 2015}
+
+%----------------------------------------------------------------------------------------
+%	PANELS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{PANELS (* = received travel support)}
+\cvitem{\textbf{Event:}}{AWM's Summer Opportunities Panel}
+\cvitem{\textbf{Location:}}{E-4 Martin Hall, Clemson, SC}
+\cvitem{\textbf{Date:}}{October 20, 2015}
+\cvitem{}{}
+\cvitem{\textbf{Event:}}{*Alumni Panel}
+\cvitem{\textbf{Location:}}{STRGT 226/229, Indiana, PA}
+\cvitem{\textbf{Date:}}{October 12, 2015}
+
+%----------------------------------------------------------------------------------------
+%	CONFERENCE ATTENDED WITHOUT PRESENTATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{CONFERENCES ATTENDED WITHOUT PRESENTATION (* = received travel support)}
+\cvitem{\textbf{Event:}}{*2014 SIAM Student Conference}
+\cvitem{\textbf{Location:}}{West Virginia University, Blacksburg, WV}
+\cvitem{\textbf{Date:}}{March 8, 2014}
+
+%----------------------------------------------------------------------------------------
+%	SERVICE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{SERVICE (* = received travel support)}
+\cvitem{\textbf{Position:}}{SIAM Webmaster}
+\cvitem{\textbf{Location:}}{Clemson University, Clemson, SC}
+\cvitem{\textbf{Date:}}{Fall 2014 - Present}
+\cvitem{}{}
+\cvitem{\textbf{Position:}}{GSG Senator}
+\cvitem{\textbf{Location:}}{Clemson University, Clemson, SC}
+\cvitem{\textbf{Date:}}{Fall 2015 - Present}
+\cvitem{}{}
+\cvitem{\textbf{Position:}}{GSG Financial Committee}
+\cvitem{\textbf{Location:}}{Clemson University, Clemson, SC}
+\cvitem{\textbf{Date:}}{Fall 2015 - Present}
+
+%----------------------------------------------------------------------------------------
+%	WORKSHOPS GIVEN SECTION
+%----------------------------------------------------------------------------------------
+
+\section{WORKSHOPS GIVEN}
+\cvitem{\textbf{Event:}}{Personal Webpage Workshop}
+\cvitem{\textbf{Location:}}{Clemson University, Clemson, SC}
+\cvitem{\textbf{Date:}}{April 15, 2015}
+\cvitem{\textbf{Comment:}}{Conducted a workshop to help graduate students create their own personal webpage}
+
+%----------------------------------------------------------------------------------------
+%	WORKSHOPS ATTENDED SECTION
+%----------------------------------------------------------------------------------------
+
+\section{WORKSHOPS ATTENDED}
+\cvitem{\textbf{Event:}}{ASPECT Hackathon}
+\cvitem{\textbf{Location:}}{Texas A\&M University, College Station, TX}
+\cvitem{\textbf{Date:}}{May 14-23, 2014}
+\cvitem{}{}
+\cvitem{\textbf{Event:}}{ASPECT Hackathon}
+\cvitem{\textbf{Location:}}{UC Davis Marine Lab, Bodega Bay, CA}
+\cvitem{\textbf{Date:}}{May 20-30, 2015}
+\cvitem{}{}
+\cvitem{\textbf{Event:}}{deal.II Hackathon}
+\cvitem{\textbf{Location:}}{Texas A\&M University, College Station, TX}
+\cvitem{\textbf{Date:}}{August 3-7, 2015}
+
+%----------------------------------------------------------------------------------------
+%	INTERNSHIPS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{INTERNSHIPS}
+\cvitem{\textbf{Job Title:}}{Member of the Technical Staff}
+\cvitem{\textbf{Location:}}{The Aerospace Corporation, Chantilly, VA}
+\cvitem{\textbf{Date:}}{June 1, 2015 to August 14, 2015}
+\cvitem{\textbf{Description:}}{Developer and analyst of multiple software packages including: GRIPS, ViCE, and UNCOLA.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{WORK EXPERIENCE}
+\cvitem{\textbf{Job Title:}}{Graduate Teacher of Record}
+\cvitem{\textbf{Location:}}{Clemson University, Clemson, SC}
+\cvitem{\textbf{Date:}}{August 26, 2015 to present}
+\cvitem{\textbf{Description:}}{Taught MATH 1060 (Calculus of One Variable I) in Fall '15 and now teach MATH 1080 (Calculus of One Variable II) in Spring '16.}
+\cvitem{}{}
+\cvitem{\textbf{Job Title:}}{Member of the Technical Staff}
+\cvitem{\textbf{Location:}}{The Aerospace Corporation, Chantilly, VA}
+\cvitem{\textbf{Date:}}{June 1, 2015 to August 14, 2015}
+\cvitem{\textbf{Description:}}{Create a test suite for the Genetic Resources for Innovation and Problem Solving (GRIPS) program.}
+\cvitem{}{}
+\cvitem{\textbf{Job Title:}}{Research Assistant}
+\cvitem{\textbf{Location:}}{Clemson University, Clemson, SC}
+\cvitem{\textbf{Date:}}{August 30, 2013 to May 1, 2015}
+\cvitem{\textbf{Description:}}{Simulate problems in thermal convection using ASPECT.}
+\cvitem{}{}
+\cvitem{\textbf{Job Title:}}{Teaching Assistant}
+\cvitem{\textbf{Location:}}{Clemson University, Clemson, SC}
+\cvitem{\textbf{Date:}}{August 21, 2013 to December 13, 2013}
+\cvitem{\textbf{Description:}}{Assissted in MATH 1080 (Calculus of One Variable II).}
+\cvitem{}{}
+\cvitem{\textbf{Job Title:}}{Sub aide}
+\cvitem{\textbf{Location:}}{Cambria Residential Services, Richland, PA}
+\cvitem{\textbf{Date:}}{June 4, 2012 to May 31, 2013}
+\cvitem{\textbf{Description:}}{Cook, clean, and transport individuals with mental health disabilities.}
+\cvitem{}{}
+\cvitem{\textbf{Job Title:}}{Web Analyst, Research Assistant}
+\cvitem{\textbf{Location:}}{Indiana University of Pennsylvania, Indiana, PA}
+\cvitem{\textbf{Date:}}{September 7, 2012 to December 14, 2012}
+\cvitem{\textbf{Description:}}{Prepare and interpret multiple web traffic reports for the IUP Communication Department.}
+\cvitem{}{}
+\cvitem{\textbf{Job Title:}}{Teaching Assistant}
+\cvitem{\textbf{Location:}}{Indiana University of Pennsylvania, Indiana, PA}
+\cvitem{\textbf{Date:}}{February 4, 2013 to May 13, 2013}
+\cvitem{\textbf{Description:}}{Tutor at the IUP branch campuses located in Punxsutawney and Northpointe, Pennsylvania.}
+\cvitem{}{}
+
+%----------------------------------------------------------------------------------------
+%	VOLUNTEER WORK SECTION
+%----------------------------------------------------------------------------------------
+
+\section{VOLUNTEER WORK}
+\cvitem{\textbf{Job Title:}}{Volunteer Assistant}
+\cvitem{\textbf{Location:}}{Cambria Residential Services, Richland, PA}
+\cvitem{\textbf{Date:}}{08/2006 - 06/2012}
+\cvitem{\textbf{Description:}}{Take individuals with mental health disabilities into the community on outings.}
+\cvitem{}{}
+\cvitem{\textbf{Job Title:}}{Volunteer Firefighter}
+\cvitem{\textbf{Location:}}{Portage Area Fire Department, Portage, PA}
+\cvitem{\textbf{Date:}}{July 10, 2012 to May 31, 2013}
+\cvitem{\textbf{Description:}}{Respond to emergency calls such as QRS, fire, and hazardous materials calls.}
+\cvitem{}{}
+\cvitem{\textbf{Job Title:}}{Volunteer Tutor}
+\cvitem{\textbf{Location:}}{Indiana University of Pennsylvania, Indiana, PA}
+\cvitem{\textbf{Date:}}{08/2009 - present}
+\cvitem{\textbf{Description:}}{Tutor for calculus, differential equations, physics, and statistics.}
+
+%----------------------------------------------------------------------------------------
+%	HONORS AND AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{HONORS AND AWARDS}
+\cvitem{\textbf{Society:}}{Sigma Alpha Lambda Honor Fraternity}
+\cvitem{\textbf{Location:}}{Indiana University of Pennsylvania, Indiana, PA}
+\cvitem{\textbf{Date:}}{Fall 2009 - Spring 2012}
+\cvitem{}{}
+\cvitem{\textbf{Society:}}{Phi Kappa Phi Honor Fraternity}
+\cvitem{\textbf{Location:}}{Indiana University of Pennsylvania, Indiana, PA}
+\cvitem{\textbf{Date:}}{Fall 2010 - Spring 2011}
+\cvitem{}{}
+\cvitem{\textbf{Award:}}{Deans List}
+\cvitem{\textbf{Location:}}{Indiana University of Pennsylvania, Indiana, PA}
+\cvitem{\textbf{Date:}}{Fall 2008 - Spring 2012}
+\cvitem{}{}
+\cvitem{\textbf{Scholarship:}}{S-COAM}
+\cvitem{\textbf{Location:}}{Indiana University of Pennsylvania, Indiana, PA}
+\cvitem{\textbf{Date:}}{Academic years 2009 - 2013}
+\cvitem{}{}
+\cvitem{\textbf{Award:}}{Outstanding Graduate Student Presentation Award}
+\cvitem{\textbf{Location:}}{The University of North Carolina at Greensboro, Greensboro, NC}
+\cvitem{\textbf{Date:}}{November 7, 2015}
+
+%----------------------------------------------------------------------------------------
+%	MEMBERSHIPS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{MEMBERSHIPS}
+\cvitem{08/2013 - present}{SIAM (Society for Industrial and Applied Mathematics)}
+\cvitem{10/2015 - present}{AWM (Association for Women in Mathematics)}
+
+%----------------------------------------------------------------------------------------
+%	KEY COURSES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{KEY COURSES}
+\cvitem{}{Introduction to Scientific Computing}
+\cvitem{}{Data Structures}
+\cvitem{}{Stochastic Processes}
+\cvitem{}{Stochastic Models}
+\cvitem{}{Mathematical Programming}
+\cvitem{}{Finite Element Method}
+\cvitem{}{Finite Element Method in Scientific Computing}
+\cvitem{}{Network Flow Programming}
+\cvitem{}{Linear Analysis}
+\cvitem{}{Matrix Analysis}
+\cvitem{}{Probability}
+\cvitem{}{Analysis for Applied Mathematics}
+\cvitem{}{Complex Analysis}
+\cvitem{}{Ordinary and Partial Differential Equations}
+\cvitem{}{Applied Regressional Analysis and Design of Experiments}
+\cvitem{}{Modeling and Simulation}
+\cvitem{}{Advanced Simulation}
+\cvitem{}{Applied Statistical Methods}
+\cvitem{}{Deterministic Models in Operations Research}
+\cvitem{}{Stochastic Models in Operations Research}
+\cvitem{}{Linear Algebra}
+\cvitem{}{Mathematical Statistics}
+\cvitem{}{Advanced Mathematics for Applications}
+\cvitem{}{Theoretical Physics}
+\cvitem{}{Electricity and Magnetism}
+\cvitem{}{Nuclear Physics}
+\cvitem{}{Mechanics}
+\cvitem{}{Thermal and Statistical Physics}
+\cvitem{}{Optics}
+\cvitem{}{Electronics}
+\cvitem{}{Quantum Mechanics}
+\cvitem{}{Modern Physics}
+
+\end{document}

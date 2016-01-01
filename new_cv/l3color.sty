@@ -1,0 +1,29 @@
+\RequirePackage{l3names}
+\GetIdInfo$Id: l3color.dtx 3986 2012-07-15 19:23:51Z joseph $
+  {L3 Experimental colour support}
+\ProvidesExplPackage
+  {\ExplFileName}{\ExplFileDate}{\ExplFileVersion}{\ExplFileDescription}
+\__expl_package_check:
+\cs_new_eq:NN \color_group_begin: \group_begin:
+\cs_new_protected_nopar:Npn \color_group_end:
+  {
+      \tex_par:D
+    \group_end:
+  }
+\cs_new_protected_nopar:Npn \color_ensure_current: { }
+\AtBeginDocument
+  {
+    \cs_if_exist:NTF \__driver_color_ensure_current:
+      {
+        \cs_set_protected_nopar:Npn \color_ensure_current:
+          { \__driver_color_ensure_current: }
+      }
+      {
+        \cs_if_exist:NT \set@color
+          { \cs_set_protected_nopar:Npn \color_ensure_current: { \set@color } }
+      }
+  }
+%% 
+%%
+%% End of file `l3color.sty'.
+
